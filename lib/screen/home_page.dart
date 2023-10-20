@@ -75,9 +75,12 @@ class _HomePageState extends State<HomePage> {
                       color: Colors.brown,
                       size: 35,
                     ),
-                    Text(
-                      "Custo do Frete: R\$${custoDoFrete.toStringAsFixed(2)}\nDistância: ${distancia.toStringAsFixed(2)}",
-                      style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.brown),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        "Custo do Frete: R\$ ${custoDoFrete.toStringAsFixed(2)}\nDistância: ${distancia.toStringAsFixed(2)} - km",
+                        style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.brown),
+                      ),
                     ),
                   ],
                 ),

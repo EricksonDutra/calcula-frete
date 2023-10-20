@@ -1,4 +1,4 @@
-import 'package:calcula_cep/screen/home_page.dart';
+import 'package:calcula_frete/screen/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
